@@ -13,7 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   late List moreLoadingList;
   ScrollController _scrollController = ScrollController();
-  int _currentMax = 10;
+  int _currentMax = 15;
 
   @override
   void initState() {
